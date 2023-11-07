@@ -36,7 +36,7 @@ The sensitivity of the voice activity detection can be adjusted by changing the 
 // Set your desired speaking threshold here
 // Higher for less sensitivity, lower for more
 
-const customSpeakingThreshold = 20; // Change this value to your preferred threshold
+const customSpeakingThreshold = 5; // Change this value to your preferred threshold
 
 // Initialize the SpeechDetection class with the onUpdate callback
 const speechDetection = new SpeechDetection({
