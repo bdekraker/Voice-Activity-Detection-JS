@@ -33,10 +33,14 @@ Open the `index.html` file in your web browser. You should be prompted to allow 
 The sensitivity of the voice activity detection can be adjusted by changing the `speakingThreshold` parameter. This is the volume level above which speech is considered to be detected. The default value is set to `5`. To adjust the sensitivity, pass a different threshold value when initializing the `SpeechDetection` class in `main.js`:
 
 ```javascript
-const customSpeakingThreshold = 10; // Higher for less sensitivity, lower for more
+// Set your desired speaking threshold here
+// Higher for less sensitivity, lower for more
+
+const customSpeakingThreshold = 20; // Change this value to your preferred threshold
+
+// Initialize the SpeechDetection class with the onUpdate callback
 const speechDetection = new SpeechDetection({
-    speakingThreshold: customSpeakingThreshold,
-    onUpdate: onUpdate // Your update function here
+    onUpdate: onUpdate
 });
 ```
 
