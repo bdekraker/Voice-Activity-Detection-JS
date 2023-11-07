@@ -34,7 +34,7 @@ To expand upon this code for different applications:
 
 1. Modify `SpeechDetection.js` to add more functionality to the voice detection, such as custom callbacks or events when voice is detected or when it stops.
 2. Update `main.js` to handle different application logic, such as starting and stopping the detection based on user input.
-3. Style the application by editing `styles.css`.
+3. Style the application by editing `style.css`.
 
 ## Contributing
 
