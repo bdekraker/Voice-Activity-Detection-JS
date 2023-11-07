@@ -3,6 +3,12 @@
 
 This repository contains a modular JavaScript-based Voice Activity Detection (VAD) WebApp that uses the Web Audio API to analyze audio input from the microphone and detect when a user is speaking.
 
+
+
+https://github.com/bdekraker/Voice-Activity-Detection-JS/assets/81277770/1cd38cb4-676a-427f-858a-5a974259604f
+
+
+
 ## Features
 
 - Real-time voice activity detection using the user's microphone.
