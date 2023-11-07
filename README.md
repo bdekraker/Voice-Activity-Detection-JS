@@ -28,6 +28,20 @@ To set up the Voice Activity Detection WebApp on your local environment, follow 
 
 Open the `index.html` file in your web browser. You should be prompted to allow microphone access. Once access is granted, the app will start detecting voice activity and update the status message on the page accordingly.
 
+### Adjusting Detection Sensitivity
+
+The sensitivity of the voice activity detection can be adjusted by changing the `speakingThreshold` parameter. This is the volume level above which speech is considered to be detected. The default value is set to `5`. To adjust the sensitivity, pass a different threshold value when initializing the `SpeechDetection` class in `main.js`:
+
+```javascript
+const customSpeakingThreshold = 10; // Higher for less sensitivity, lower for more
+const speechDetection = new SpeechDetection({
+    speakingThreshold: customSpeakingThreshold,
+    onUpdate: onUpdate // Your update function here
+});
+```
+
+By adjusting the `customSpeakingThreshold` value, you can tailor the sensitivity of the detection to the needs of your specific environment or application.
+
 ## Expansion
 
 To expand upon this code for different applications:
@@ -35,6 +49,7 @@ To expand upon this code for different applications:
 1. Modify `SpeechDetection.js` to add more functionality to the voice detection, such as custom callbacks or events when voice is detected or when it stops.
 2. Update `main.js` to handle different application logic, such as starting and stopping the detection based on user input.
 3. Style the application by editing `style.css`.
+4. Implement additional UI elements or indicators for voice activity, as desired.
 
 ## Contributing
 
