@@ -5,7 +5,11 @@ This repository contains a modular JavaScript-based Voice Activity Detection (VA
 
 
 
-https://github.com/bdekraker/Voice-Activity-Detection-JS/assets/81277770/1cd38cb4-676a-427f-858a-5a974259604f
+
+
+https://github.com/bdekraker/Voice-Activity-Detection-JS/assets/81277770/5776632c-28d7-4bf3-a50d-09f8993e8999
+
+
 
 
 
